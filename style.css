@@ -83,3 +83,17 @@ li {
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+.pribeh {
+  color: rgb(8, 38, 157);
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 70%;
+  font-size: 20px;
+
+}
+
+.obrazek__apolenka {
+  width: 100px;
+  height: auto;
+}
