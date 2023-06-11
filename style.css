@@ -1,34 +1,58 @@
-body {
+header {
+  background: linear-gradient(103.33deg, #CCEAFF 14.61%, #F4F9FD 79.6%);
+}
 
+body {
   background-attachment: fixed;
   font-family: "Roboto", sans-serif;
   text-rendering: auto;
 }
 
+.title {
+  width: 600px;
+}
+
 h1 {
-  /*font-size: 50px;*/
-  color: black
-    /*text-align: center;
-  margin-top: 80px;*/
+  color: #EE0072;
+  font-size: 40px;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 84px;
+
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 20px;
+  color: #18639E;
+}
+
+h3 {
+  color: #18639E;
 }
 
 .menu {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 10px;
   flex-direction: row;
   list-style: none;
+  color: #18639E;
 }
 
-.obsah {
+.content {
+  margin-top: 10px;
+  list-style: none;
+}
+
+.content_right {
+  font-weight: bold;
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 10px;
-  flex-direction: row;
-  list-style: none;
 }
 
-
+.content_left {}
 
 li {
   display: flex;
@@ -38,52 +62,47 @@ li {
 
 
 
-.tlacitko:hover {
-  color: rgb(8, 38, 157);
+.menu-botton:hover {
+  color: #18639E;
 
 }
 
-.tlacitko {
-  color: black;
-  font-size: 20px;
-  /*border: white;*/
+.menu-botton {
+  color: #18639E;
+  font-size: 15px;
   text-decoration: none;
-  border-radius: 2rem;
-  border: solid 2px;
-  border-color: white;
-  width: 180px;
   text-align: center;
-  padding: 5px;
+  padding: 15px;
 }
 
-.karta {
+.card {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   text-align: left !important;
   width: 380px;
   height: 200px;
-  background-color: white;
+
   margin: 5px;
-  color: rgb(8, 38, 157);
+  color: #18639E;
   border-radius: 5%;
   padding: 1.5rem;
 }
 
-.karta__obrazek {
+.card__picture {
   display: block;
   height: auto;
   width: 200px;
 }
 
-.karta__name {
+.card__name {
   font-weight: bold;
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-.pribeh {
-  color: rgb(8, 38, 157);
+.story {
+  color: #18639E;
   display: flex;
   flex-wrap: wrap;
   max-width: 70%;
@@ -91,7 +110,7 @@ li {
 
 }
 
-.obrazek__apolenka {
+.picture__apolenka {
   width: 100px;
   height: auto;
 }
