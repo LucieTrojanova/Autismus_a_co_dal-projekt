@@ -13,39 +13,51 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="karta">
-      <img class="karta__obrazek" src="img/ric.png" alt="ric" />
-      <div class="karta__name">Rodinné Integrační Centrum z. s.</div>
-      <div>náměstí Republiky 2686, 530 02 Pardubice</div>
-      <div>vchod z ulice Jindřišská</div>
-      <div>Email: info@ric.cz</div>
-      <div>
-        Telefon:
-        <a href="https://www.ric.cz/obsah/kontakty"
-          >https://www.ric.cz/obsah/kontakty</a
-        >
+    <nav class="menu">
+      <ul class="obsah">
+        <li><a href="#" class="tlacitko">Příběh</a></li>
+        <li>
+          <a href="/organizace" class="tlacitko">Organizace</a>
+        </li>
+        <li><a href="#" class="tlacitko">Strava</a></li>
+        <li><a href="#" class="tlacitko">Knihy</a></li>
+        <li><a href="#" class="tlacitko">Terapie</a></li>
+      </ul>
+    </nav>
+    <div class="karty">
+      <div class="karta">
+        <img class="karta__obrazek" src="img/ric.png" alt="ric" />
+        <div class="karta__name">Rodinné Integrační Centrum z. s.</div>
+        <div>náměstí Republiky 2686, 530 02 Pardubice</div>
+        <div>vchod z ulice Jindřišská</div>
+        <div>Email: info@ric.cz</div>
+        <div>
+          Telefon:
+          <a href="https://www.ric.cz/obsah/kontakty"
+            >https://www.ric.cz/obsah/kontakty</a
+          >
+        </div>
+      </div>
+      <div class="karta">
+        <img class="karta__obrazek" src="img/nautis.png" alt="nautis" />
+        <div class="karta__name">Národní ústav pro autismus, z.ú.</div>
+        <div>V Holešovičkách 593/1a, 182 00 Praha 8</div>
+        <div>E-mail: poradna@nautis.cz</div>
+        <div>Telefon: +420 778 402 641</div>
+      </div>
+
+      <div class="karta">
+        <img
+          class="karta__obrazek obrazek__apolenka"
+          src="img/apolenka.png"
+          alt="apolenka"
+        />
+        <div class="karta__name">Statek Apolenka</div>
+        <div>Na Okrajích 156 Spojil, 530 02</div>
+        <div>E-mail: jolana.stepankova@apolenka.org</div>
+        <div>Telefon: +420 775 114 618</div>
       </div>
     </div>
-    <div class="karta">
-      <img class="karta__obrazek" src="img/nautis.png" alt="nautis" />
-      <div class="karta__name">Národní ústav pro autismus, z.ú.</div>
-      <div>V Holešovičkách 593/1a, 182 00 Praha 8</div>
-      <div>E-mail: poradna@nautis.cz</div>
-      <div>Telefon: +420 778 402 641</div>
-    </div>
-
-    <div class="karta">
-      <img
-        class="karta__obrazek obrazek__apolenka"
-        src="img/apolenka.png"
-        alt="apolenka"
-      />
-      <div class="karta__name">Statek Apolenka</div>
-      <div>Na Okrajích 156 Spojil, 530 02</div>
-      <div>E-mail: jolana.stepankova@apolenka.org</div>
-      <div>Telefon: +420 775 114 618</div>
-    </div>
-
     <div id="mapa" style="width: 600px; height: 400px"></div>
   </body>
 </html>

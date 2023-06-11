@@ -1,7 +1,8 @@
 body {
   /* background-color: rgb(148, 178, 233);*/
-  background-image: linear-gradient(to bottom left, #2a62d2, #95aedd, rgb(53, 73, 156));
+  /*background-image: linear-gradient(to bottom left, #2a62d2, #95aedd, rgb(53, 73, 156));
   /*background-image: linear-gradient(to bottom left, #4719bd, #4881ec, rgb(7, 7, 125));*/
+  background-color: white;
   background-attachment: fixed;
   font-family: "Roboto", sans-serif;
   text-rendering: auto;
@@ -17,9 +18,12 @@ h1 {
 .obsah {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   margin-top: 40px;
   flex-direction: row;
   list-style: none;
+  background-color: rgb(8, 38, 157);
+  height: 70px;
 
 }
 
@@ -41,8 +45,8 @@ li {
 /*li:hover {}*/
 
 .tlacitko:hover {
-  color: rgb(8, 38, 157);
-  border-color: rgb(8, 38, 157);
+  color: rgb(177, 176, 176);
+  border-color: rgb(177, 176, 176);
 }
 
 .tlacitko {
@@ -70,7 +74,9 @@ li {
   color: rgb(8, 38, 157);
   border-radius: 5%;
   padding: 1.5rem;
+  border: solid 3px rgb(8, 38, 157);
 }
+
 
 .karta__obrazek {
   display: block;
@@ -84,16 +90,29 @@ li {
   margin-top: 20px;
 }
 
+.karty {
+  display: flex;
+  justify-content: space-around;
+}
+
 .pribeh {
   color: rgb(8, 38, 157);
   display: flex;
   flex-wrap: wrap;
   max-width: 70%;
   font-size: 20px;
-
+  margin-left: 4%
 }
 
 .obrazek__apolenka {
   width: 100px;
+  height: auto;
+}
+
+.postava {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  width: 30%;
   height: auto;
 }
