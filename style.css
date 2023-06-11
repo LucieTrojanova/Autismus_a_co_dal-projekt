@@ -47,7 +47,7 @@ h3 {
 
 .story1 {
   font-size: 25px;
-  line-height: calc(150%);
+  line-height: 150%;
 }
 
 .story4 {
@@ -139,4 +139,20 @@ li {
 .picture__apolenka {
   width: 100px;
   height: auto;
+}
+
+.sekce-stred {
+  color: #18639E;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+
+.text1 {
+  margin-bottom: 0px;
+}
+
+.text2 {
+  margin-top: 0px;
 }
