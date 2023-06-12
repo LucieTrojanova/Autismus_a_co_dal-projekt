@@ -3,74 +3,144 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="mapa.js"></script>
+    <script src="https://api.mapy.cz/loader.js"></script>
+    <script>
+      Loader.load();
+    </script>
     <link rel="stylesheet" href="style.css" />
     <script type="module" src="index.js"></script>
+
     <title>Autismus a co dál...</title>
   </head>
   <body>
-    <div class="cely">
-      <header>
-        <nav class="menu">
-          <ul class="content content_left">
-            <li><a href="#" class="menu-botton">Žijusautistou.cz</a></li>
-          </ul>
-          <ul class="content content_right">
-            <li>
-              <a href="/organizace" class="menu-botton">Organizace</a>
-            </li>
-            <li><a href="#" class="menu-botton">Strava</a></li>
-            <li><a href="#" class="menu-botton">Knihy</a></li>
-            <li><a href="#" class="menu-botton">Terapie</a></li>
-          </ul>
-        </nav>
-        <div class="title">
-          <h2>Jaký je</h2>
-          <h1>
-            život <br />
-            s autistou
-          </h1>
+    <header>
+      <nav class="menu">
+        <ul class="content content_left">
+          <li><a href="#" class="menu-botton">Žijusautistou.cz</a></li>
+        </ul>
+        <ul class="content content_right">
+          <li>
+            <a href="/organizace" class="menu-botton">Organizace</a>
+          </li>
+          <li><a href="#" class="menu-botton">Strava</a></li>
+          <li><a href="#" class="menu-botton">Knihy</a></li>
+          <li><a href="#" class="menu-botton">Terapie</a></li>
+        </ul>
+      </nav>
+      <div class="heading">
+        <h2>Jaký je</h2>
+        <h1>
+          život <br />
+          s autistou
+        </h1>
+      </div>
+    </header>
+    <main>
+      <div class="story">
+        <h3>Mám pro Vás příběh...</h3>
+        <p class="story1">
+          Každý den žiji spolu se synem Tobiášem náš příběh s autismem. A chci
+          sdílet, co nám pomáhá. A doufám, že to pomůže další mamince na začátku
+          její cesty.
+        </p>
+        <p class="story2">
+          Synovi byl diagnostikován autismus před dvěmi lety. Už před tím se mi
+          zdálo, že máme některé situace jinak, než by měly být. Tobík třeba
+          neměl radost z dárků. Plakal a míval záchvaty. Stejně tak probíhala
+          reakce na všechny změny. Jenže vše bylo překryté ještě ADHD a tak jsem
+          vypadala jako histerická matka. Po hospitalizaci na JIP s laryngitidou
+          se ale projevy zhoršily i na několik záchvatů za den a začala jsem
+          hledat pomoc. Tak jsme se seznámili s RICem a pustili se do hledání
+          informací ohledně diagnostiky. Následoval týdenní pobyt na Logo
+          klinice v Brně, kde nám autismus potvrdili.
+        </p>
+        <p class="story2">
+          A pak přišlo období hledání, zkoušení a zjišťování, co by mohlo pomoct
+          a co pro Tobíka není vhodné. A o tom, co nám pomohlo jsou tyto
+          stránky.
+        </p>
+        <p class="story3">
+          Máte podobnou zkušenost jako my, nebo byste se jen rádi na něco
+          ohledně autismu zeptali? <span class="link">Napište mi</span>.
+        </p>
+      </div>
+      <div class="sekce-stred">
+        <h3>Jako od maminky</h3>
+        <p class="text1">
+          Chci se s vámi podělit o recepty, podle kterých vařím,
+        </p>
+        <p class="text2">když potřebuji vynechat některé suroviny.</p>
+        <div class="foto-recept">
+          <div class="recept">
+            <img
+              class="recept-obrazek"
+              src="img/grilované kuře.jpg"
+              alt="kuře"
+            />
+          </div>
+
+          <div class="recept">
+            <img
+              src="img/bezlepkovy_makovy_dort.png"
+              alt="bezlepkový makový dort"
+            />
+          </div>
+          <div class="recept">
+            <img src="img/pohankovy_chleb.jpg" alt="pohankový chleb" />
+          </div>
         </div>
-      </header>
-      <main>
-        <div class="story">
-          <h3>Mám pro Vás příběh...</h3>
-          <p class="story1">
-           Každý den žiji spolu se synem Tobiášem náš příběh s autismem. A chci
-            sdílet, co nám pomáhá. A doufám, že to pomůže další mamince na
-            začátku její cesty. </p> 
-            <p class="story2">Synovi byl diagnostikován autismus před dvěmi
-            lety. Už před tím se mi zdálo, že máme některé situace jinak, než by
-            měly být. Tobík třeba neměl radost z dárků. Plakal a míval záchvaty.
-            Stejně tak probíhala reakce na všechny změny. Jenže vše bylo
-            překryté ještě ADHD a tak jsem vypadala jako histerická matka. Po
-            hospitalizaci na JIP s laryngitidou se ale projevy zhoršily i na
-            několik záchvatů za den a začala jsem hledat pomoc. Tak jsme se
-            seznámili s RICem a pustili se do hledání informací ohledně
-            diagnostiky. Následoval týdenní pobyt na Logo klinice v Brně, kde
-            nám autismus potvrdili.</p>
-            <p class="story3"> A pak přišlo období hledání, zkoušení a
-            zjišťování, co by mohlo pomoct a co pro Tobíka není vhodné. A o tom,
-            co nám pomohlo jsou tyto stránky.</p>
-            <p class="story4">
-              Máte podobnou zkušenost jako my, nebo byste se jen rádi na něco ohledně autismu zeptali? <span class="link">Napište mi.</span> 
-            </p>
-            
+        <div class="change-right">
+          <a href="./strava.html" class="change">Přejít na recepty »</a>
+        </div>
+      </div>
+      <div class="sekce-stred">
+        <h3>Kde nám poradili</h3>
+        <p class="text1">Vyhledat odbornou pomoc je prvním krokem,</p>
+        <p class="text2">jak se situací vyrovnat a jak postupovat dál.</p>
+        <div id="mapa" style="width: 400px; height: 200px"></div>
+        <div class="change-right">
+          <a href="./organizace" class="change">Přejít na organizace »</a>
+        </div>
+      </div>
+      <div class="sekce-stred">
+        <h3>Čtenářský deník</h3>
+        <p class="text1">
+          Čtení knih je nejen zdrojem velkého množství informací,
+        </p>
+        <p class="text2">ale i chvíle, kdy si mohu odpočinout.</p>
+        <div class="books">
+          <p class="title">
+            10 věcí, které by vaše dítě s autismem chtělo, abyste věděli
+          </p>
+          <p class="book">
+            Oceňované knihy, která získala několik prestižních cen a je
+            doporučovaná na mnoha zahraničních odborných i rodičovských webech o
+            autismu, se zatím prodalo přes 250&nbsp;000 výtisků ve 20 jazycích a
+            stala se v oblasti poruch autistického spektra klasikou. Kniha
+            překypuje pochopením, soucitem i svěžím humorem
+            <a href="link" class="link">Přečíst více na stránce prodejce</a>.
+          </p>
+
+          <p class="title">Jak to vidím já</p>
+          <p class="book">
+            Autorka, význačná americká etoložka a spisovatelka, nabízí osobní
+            pohled na autismus a Aspergerův syndrom. Na základě vlastních
+            dlouholetých zkušeností a spolupráce s předními světovými odborníky
+            ukazuje, jak u autistických dětí podnítit motivaci a využít ji k
+            vzdělávání, integraci a samostatnosti
+            <a
+              href="https://www.knihydobrovsky.cz/kniha/jak-to-vidim-ja-6825328"
+              class="link"
+              >Přečíst více na stránce prodejce</a
+            >.
           </p>
         </div>
-        <div class="sekce-stred">
-          <h3>Jako od maminky</h3>
-            <p class="text1">Chci se s vámi podělit o recepty, podle kterých vařím, </p>
-              <p class="text2">když potřebuji vynechat některé suroviny. </p>
+        <div class="change-right">
+          <a href="./knihy.html" class="change">Přejít na literaturu »</a>
         </div>
-    <img src="img/pohankovy_chleb.jpg" alt="pohankový chleb">
-<img src="img/bezlepkovy_makovy_dort.png" alt="bezlepkový makový dort">
-    <div class="sekce-stred">
-      <h3>Kde nám poradili</h3>
-      <p class="text1">Vyhledat odbornou pomoc je prvním krokem, </p>
-     <p class="text2">jak se situací vyrovnat a jak postupovat dál. </p>
-    </div>
-      </main>
-      <footer></footer>
-    </div>
+      </div>
+    </main>
+    <footer></footer>
   </body>
 </html>
