@@ -1,12 +1,12 @@
 var stred = SMap.Coords.fromWGS84(16, 49.7);
 var mapa = new SMap(JAK.gel('mapa'), stred, 8);
 mapa.addDefaultLayer(SMap.DEF_BASE).enable();
-//mapa.addDefaultControls();
-var o = { title: 'Posun mapy' };
-var c = new SMap.Control.Compass(o);
-mapa.addControl(c, { left: '5px', bottom: '10px' });
-c = new SMap.Control.Zoom();
-mapa.addControl(c, { left: '5px', top: '5px' });
+mapa.addDefaultControls();
+//var o = { title: 'Posun mapy' };
+//var c = new SMap.Control.Compass(o);
+//mapa.addControl(c, { left: '5px', bottom: '10px' });
+//c = new SMap.Control.Zoom();
+//mapa.addControl(c, { left: '5px', top: '5px' });
 
 var layer = new SMap.Layer.Marker();
 mapa.addLayer(layer);
