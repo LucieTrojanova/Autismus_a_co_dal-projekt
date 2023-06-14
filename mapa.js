@@ -47,3 +47,11 @@ var apolenka = SMap.Coords.fromWGS84(15.8208144, 50.0480044);
 marker = new SMap.Marker(apolenka, 'Apolenka', options);
 marker.decorate(SMap.Marker.Feature.Card, card);
 layer.addMarker(marker);
+
+var options = {
+  title: 'Soukromá Logo klinika',
+};
+var logoklinika = SMap.Coords.fromWGS84(16.5982669, 49.1774631);
+marker = new SMap.Marker(logoklinika, 'Soukromá Logo klinika', options);
+marker.decorate(SMap.Marker.Feature.Card, card);
+layer.addMarker(marker);
