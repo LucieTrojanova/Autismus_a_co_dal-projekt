@@ -1,4 +1,4 @@
-var stred = SMap.Coords.fromWGS84(15, 50.08);
+var stred = SMap.Coords.fromWGS84(16, 49.7);
 var mapa = new SMap(JAK.gel('mapa'), stred, 8);
 mapa.addDefaultLayer(SMap.DEF_BASE).enable();
 //mapa.addDefaultControls();
