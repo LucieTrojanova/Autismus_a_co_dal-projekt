@@ -293,7 +293,7 @@ li {
 
 }
 
-a[href^="mailto:"] {
+.grey-link {
   color: gray;
   text-decoration: none;
 }
@@ -306,4 +306,21 @@ a[href^="tel:"] {
 a[href^="https://www.ric.cz/obsah/kontakty"] {
   color: gray;
   text-decoration: none;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.picture__RD {
+  width: 30%;
+
+}
+
+.picure__SZ {
+  width: 30%;
+}
+
+.picture__KS {
+  width: 30%;
 }

@@ -48,6 +48,10 @@ marker = new SMap.Marker(apolenka, 'Apolenka', options);
 marker.decorate(SMap.Marker.Feature.Card, card);
 layer.addMarker(marker);
 
+card = new SMap.Card();
+card.getHeader().innerHTML = '<strong>Soukromá Logo klinika</strong>';
+card.getBody().innerHTML = 'Vsetínská 20, 639 00 Brno</em>';
+
 var options = {
   title: 'Soukromá Logo klinika',
 };
