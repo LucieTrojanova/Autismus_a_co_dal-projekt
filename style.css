@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo 2&display=swap');
 
+
 * {
   font-family: 'Exo 2';
 }
@@ -137,10 +138,12 @@ li {
   width: 200px;
 }
 
-/*.card-logo {
-  margin: 5px;
-  padding: 0rem 1.5rem 3rem 1.5rem;
-}*/
+
+.card__logo {
+  /*margin: 5px;
+  padding: 0rem 1.5rem 3rem 1.5rem;*/
+  --animate-delay: 4s;
+}
 
 .picture__apolenka {
   width: 100px;
