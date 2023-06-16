@@ -1,5 +1,5 @@
 var stred = SMap.Coords.fromWGS84(16, 49.7);
-var mapScale = 6;
+var mapScale = 7;
 
 if (window.location.pathname.indexOf('organizace') != -1) mapScale = 8;
 
