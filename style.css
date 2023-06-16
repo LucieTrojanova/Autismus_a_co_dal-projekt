@@ -242,6 +242,11 @@ li {
 .nazev-org {
   color: #18639E;
   font-weight: bold;
+  margin: 3% 0% 0% 0%;
+  text-decoration: none;
+}
+
+.nazev_org_margin {
   margin: 3%;
 }
 

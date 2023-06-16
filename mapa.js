@@ -1,7 +1,12 @@
 var stred = SMap.Coords.fromWGS84(16, 49.7);
-var mapa = new SMap(JAK.gel('mapa'), stred, 8);
+var mapScale = 6;
+
+if (window.location.pathname.indexOf('organizace') != -1) mapScale = 8;
+
+var mapa = new SMap(JAK.gel('mapa'), stred, mapScale);
 mapa.addDefaultLayer(SMap.DEF_BASE).enable();
 mapa.addDefaultControls();
+
 //var o = { title: 'Posun mapy' };
 //var c = new SMap.Control.Compass(o);
 //mapa.addControl(c, { left: '5px', bottom: '10px' });
