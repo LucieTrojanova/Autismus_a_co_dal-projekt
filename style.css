@@ -13,7 +13,7 @@ header {
 
 
 body {
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   text-rendering: auto;
   margin: 0px;
 }
@@ -26,7 +26,7 @@ body {
 
 h1 {
   color: #EE0072;
-  font-size: 40px;
+
   font-style: normal;
   font-weight: 800;
   font-size: 96px;
@@ -111,11 +111,11 @@ h3 {
   align-items: center;
 }
 */
-.menu-botton:hover {
+.menu-button:hover {
   color: #18639E;
 }
 
-.menu-botton {
+.menu-button {
   color: #18639E;
   font-size: 15px;
   text-decoration: none;
@@ -453,4 +453,77 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
 .footer {
   /*position: absolute;*/
   bottom: 10px;
+}
+
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 40px;
+    line-height: 40px;
+
+  }
+
+  .heading {
+    margin-left: 5%;
+    margin-top: 15px;
+    margin-bottom: 20%;
+    width: 100%;
+
+  }
+
+  header {
+    height: 200px;
+  }
+
+  .content_right {
+
+    flex-direction: column;
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    margin: 0px;
+    min-width: 80px;
+    line-height: 40px;
+    background-color: #CCEAFF
+  }
+
+  .content {
+    padding: 0px;
+  }
+
+  #hamburger_menu {
+    position: absolute;
+    top: 10px;
+    right: 80px;
+
+  }
+
+  .menu-button:hover {
+    text-decoration: underline;
+    color: #34546D;
+  }
+
+  .story {
+    margin-left: 5%;
+    font-size: 80%;
+  }
+
+
+
+  h3 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .text1 {
+    font-size: 60%;
+  }
+
+  .text2 {
+    font-size: 70%;
+  }
 }

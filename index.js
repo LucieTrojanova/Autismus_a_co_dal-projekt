@@ -12,3 +12,16 @@ for (let i = 0; i < paragraphs.length; i++) {
   const paragraph = paragraphs[i];
   paragraph.innerHTML = fixSingleLetterWords(paragraph.innerHTML);
 }*/
+
+function menuVisible() {
+  var menu = document.querySelector('.content_right');
+  if (menu.style.display === 'flex') {
+    menu.style.display = 'none';
+  } else {
+    menu.style.display = 'flex';
+  }
+}
+
+document
+  .querySelector('#hamburger_menu')
+  .addEventListener('click', menuVisible);
