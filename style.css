@@ -529,10 +529,62 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
   }
 
   .text1 {
-    font-size: 60%;
+    font-size: 70%;
   }
 
   .text2 {
     font-size: 70%;
+  }
+
+  .recept-popis {
+    font-size: 70%;
+  }
+
+  .recept-nazev {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .priprava-narocnost {
+    font-size: 80%;
+  }
+
+  .cas-narocnost {
+    font-size: 80%;
+  }
+
+  .recept-obrazek {
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+  }
+
+  .change-right {
+    font-size: 70%;
+    right: 10px;
+    margin-right: 15%;
+  }
+
+  .foto-recept {
+    justify-content: start;
+
+  }
+
+  .title {
+    font-size: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .book {
+    font-size: 70%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+
+  .link {
+    font-size: 90%;
   }
 }
