@@ -554,7 +554,8 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
     margin: 0px;
     min-width: 80px;
     line-height: 40px;
-    background-color: #CCEAFF
+    background-color: #CCEAFF;
+    z-index: 5;
   }
 
   .content {
@@ -566,6 +567,7 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
     top: 25px;
     right: 80px;
     display: block;
+
 
   }
 
@@ -814,5 +816,6 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
     border-radius: 5px;
     width: 100px;
     height: auto;
+
   }
 }
