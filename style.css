@@ -3,16 +3,23 @@
 
 * {
   font-family: 'Exo 2';
+  box-sizing: border-box;
 }
 
 header {
   background: linear-gradient(103.33deg, #CCEAFF 14.61%, #F4F9FD 79.6%);
   height: 450px;
+  padding-top: 10px;
+  padding-left: 10px;
 }
 
 .header-secondary-page {
   background: linear-gradient(103.33deg, #CCEAFF 14.61%, #F4F9FD 79.6%);
   height: 300px;
+}
+
+main {
+  padding-bottom: 90px;
 }
 
 body {
@@ -96,6 +103,8 @@ h3 {
 
 .org__ul {
   list-style: none;
+  padding-left: 0px;
+
 }
 
 .link {
@@ -104,9 +113,16 @@ h3 {
   text-decoration: underline;
 }
 
-.menu {
+
+
+.menu-container {
   display: flex;
   justify-content: space-between;
+
+}
+
+.menu {
+  display: flex;
   /*margin-top: 10px;*/
   flex-direction: row;
   list-style: none;
@@ -131,7 +147,11 @@ h3 {
 }
 */
 .menu-button:hover {
-  color: #18639e;
+  text-decoration: underline;
+}
+
+.menu-button:active {
+  color: #34546D;
 }
 
 .menu-button {
@@ -140,9 +160,7 @@ h3 {
   text-decoration: none;
   text-align: center;
   padding: 15px;
-
 }
-
 
 .all-cards {
   display: flex;
@@ -159,8 +177,8 @@ h3 {
   flex-direction: column;
   /*flex-wrap: wrap;*/
   text-align: left !important;
-  width: 380px;
-  height: 200px;
+  width: 410px;
+  height: 240px;
   margin: 5px;
   color: #18639E;
   border-radius: 20px;
@@ -172,6 +190,7 @@ h3 {
 .card:hover {
   border: solid 4px;
   color: #18639E;
+
 }
 
 
@@ -220,6 +239,7 @@ h3 {
 .text1 {
   margin-bottom: 0px;
   color: #34546D;
+  font-size: 20px;
 
 }
 
@@ -368,6 +388,7 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
 
 .decoration-none {
   text-decoration: none;
+
 }
 
 .picture__RD {
@@ -411,11 +432,10 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
 
   display: flex;
   justify-content: space-around;
-
   /*flex-wrap: wrap;*/
   /*text-align: right !important;*/
-  width: 380px;
-  height: 200px;
+  width: 410px;
+  height: 240px;
   margin: 5px;
   color: #18639E;
   border-radius: 20px;
@@ -427,7 +447,7 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
 }
 
 .name_function {
-  margin: 30px 0px 0px 10px;
+  margin: 10px 0px 0px 10px;
 }
 
 .card_book {
@@ -435,8 +455,8 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
   justify-content: space-around;
   /*flex-wrap: wrap;*/
   /*text-align: right !important;*/
-  width: 380px;
-  height: 200px;
+  width: 410px;
+  height: 240px;
   margin: 5px;
   color: #18639E;
   border-radius: 20px;
@@ -463,8 +483,15 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
 }
 
 .footer {
-  /*position: absolute;*/
-  bottom: 10px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vw;
 }
 
 #hamburger_menu {
