@@ -321,6 +321,7 @@ h3 {
 
 }
 
+
 .nazvy-mapa {
   flex-direction: row;
   display: flex;
@@ -446,6 +447,10 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
 
 }
 
+.title-inspiration {
+  margin: 90px 0px 50px 0px;
+}
+
 .name_function {
   margin: 10px 0px 0px 10px;
 }
@@ -503,6 +508,11 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
   height: 400px;
 }
 
+.mapa-org {
+  width: 1500px;
+  height: 350px;
+}
+
 @media screen and (max-width: 500px) {
   h1 {
     font-size: 40px;
@@ -513,13 +523,17 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
   .heading {
     margin-left: 5%;
     margin-top: 15px;
-    margin-bottom: 20%;
+    margin-bottom: 0%;
     width: 95%;
 
   }
 
   header {
     height: 200px;
+  }
+
+  .header-secondary-page {
+    height: 160px;
   }
 
   .content_right {
@@ -541,7 +555,7 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
 
   #hamburger_menu {
     position: absolute;
-    top: 10px;
+    top: 25px;
     right: 80px;
     display: block;
 
@@ -553,15 +567,16 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
   }
 
   .story {
-    margin-left: 5%;
+    margin-left: 30px;
     font-size: 80%;
+    width: 80%;
   }
 
 
 
   h3 {
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 20px;
   }
 
   h2 {
@@ -570,6 +585,7 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
 
   .text1 {
     font-size: 70%;
+    line-height: 120%;
   }
 
   .text2 {
@@ -591,6 +607,10 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
   .recept-nazev {
     margin-top: 5px;
     margin-bottom: 5px;
+  }
+
+  .recept-obrazek {
+    border-radius: 10px;
   }
 
   .priprava-narocnost {
@@ -635,23 +655,48 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
   }
 
   .sekce-stred {
-    margin: 0% 0% 0% 5%;
+    margin: 0%;
 
   }
 
   .mapa-index {
-    width: 90%;
+    width: 95%;
     height: 300px;
+    margin: auto;
+  }
+
+  .mapa-org {
+    width: 95%;
+    height: 200px;
+    margin: auto;
   }
 
   .nazvy-mapa {
     font-size: 70%;
     flex-direction: column;
     width: 90%;
+    margin-top: 4%;
+    align-items: center;
   }
 
   .nazvy {
-    margin-right: 0%;
+    margin: 0% 0% 0% 0%;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+
+
+  }
+
+  /*.grid-container {
+    display: grid;
+    column-gap: 50px;
+  }*/
+
+  .nazev-org {
+    margin: 5% 0% 5% 0%;
+
+
   }
 
   .change-right {
@@ -662,4 +707,94 @@ a[href^="https://www.ric.cz/obsah/kontakty"] {
     font-size: 70%;
   }
 
+  .books {
+    margin: 0% 5% 0% 5%;
+  }
+
+  .all-cards {
+    font-size: 70%;
+    margin-left: 0%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 300px;
+    height: 200px;
+  }
+
+  .card__picture {
+    width: 60%;
+    height: auto;
+  }
+
+  .picture__logo {
+    width: 40%;
+    height: auto;
+  }
+
+  .picture__apolenka {
+    width: 35%;
+    height: auto;
+  }
+
+  .title-inspiration {
+    margin: 15% 0% 15% 0%;
+
+  }
+
+  .card_food {
+    width: 300px;
+    height: 200px;
+    padding-top: 30px;
+
+  }
+
+  .picture__RD {
+    width: 120px;
+    height: 130px;
+
+  }
+
+  .book__description {
+    font-size: 90%;
+  }
+
+  .picture__SZ {
+    width: 120px;
+    height: 130px;
+  }
+
+  .picture__KS {
+    width: 120px;
+    height: 130px;
+  }
+
+  .picture__ZS {
+    width: 120px;
+    height: 130px;
+  }
+
+  .name_function {
+    margin-top: 0px;
+  }
+
+  .card_book {
+    width: 300px;
+    height: 200px;
+    padding-top: 30px;
+  }
+
+  .picture__book {
+    width: 120px;
+    height: 130px;
+  }
+
+  .story__org {
+    margin-right: 15%;
+    line-height: 150%;
+    color: #34546D;
+    margin-left: 10%;
+
+  }
 }
